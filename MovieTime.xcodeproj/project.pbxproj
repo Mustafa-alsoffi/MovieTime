@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		F61A36682236BFBD003F9FE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61A36672236BFBD003F9FE6 /* AppDelegate.swift */; };
-		F61A366A2236BFBD003F9FE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61A36692236BFBD003F9FE6 /* ViewController.swift */; };
+		F61A366A2236BFBD003F9FE6 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61A36692236BFBD003F9FE6 /* HomeController.swift */; };
 		F61A366D2236BFBD003F9FE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F61A366B2236BFBD003F9FE6 /* Main.storyboard */; };
-		F61A366F2236BFC8003F9FE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F61A366E2236BFC8003F9FE6 /* Assets.xcassets */; };
 		F61A36722236BFC8003F9FE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F61A36702236BFC8003F9FE6 /* LaunchScreen.storyboard */; };
+		F66397F22252C8B700C74D3E /* WeclomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66397F12252C8B700C74D3E /* WeclomeController.swift */; };
+		F66397F42252D44A00C74D3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66397F32252D44A00C74D3E /* Assets.xcassets */; };
+		F6CDA47A2257EFE100121F0A /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CDA4792257EFE100121F0A /* WelcomeView.swift */; };
+		F6E5E0F222555F770030A918 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5E0F122555F770030A918 /* VideoCell.swift */; };
+		F6E5E0F5225572550030A918 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5E0F4225572550030A918 /* Extensions.swift */; };
+		F6FD6855225DFA4E00F75727 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6FD6854225DFA4E00F75727 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F61A36642236BFBD003F9FE6 /* YoutubeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoutubeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F61A36642236BFBD003F9FE6 /* MovieTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F61A36672236BFBD003F9FE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F61A36692236BFBD003F9FE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F61A36692236BFBD003F9FE6 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		F61A366C2236BFBD003F9FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F61A366E2236BFC8003F9FE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F61A36712236BFC8003F9FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F61A36732236BFC8003F9FE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F66397F12252C8B700C74D3E /* WeclomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeclomeController.swift; sourceTree = "<group>"; };
+		F66397F32252D44A00C74D3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6CDA4792257EFE100121F0A /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		F6E5E0F122555F770030A918 /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		F6E5E0F4225572550030A918 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F6FD6854225DFA4E00F75727 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +48,8 @@
 		F61A365B2236BFBC003F9FE6 = {
 			isa = PBXGroup;
 			children = (
-				F61A36662236BFBD003F9FE6 /* YoutubeDemo */,
+				F6FD6854225DFA4E00F75727 /* Default-568h@2x.png */,
+				F61A36662236BFBD003F9FE6 /* MovieTime */,
 				F61A36652236BFBD003F9FE6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +57,58 @@
 		F61A36652236BFBD003F9FE6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F61A36642236BFBD003F9FE6 /* YoutubeDemo.app */,
+				F61A36642236BFBD003F9FE6 /* MovieTime.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F61A36662236BFBD003F9FE6 /* YoutubeDemo */ = {
+		F61A36662236BFBD003F9FE6 /* MovieTime */ = {
 			isa = PBXGroup;
 			children = (
+				F6E5E0F022555F0C0030A918 /* Views */,
+				F6CD0A312259BA13000A99B1 /* Controllers */,
+				F6E5E0F32255721A0030A918 /* Helpers */,
 				F61A36672236BFBD003F9FE6 /* AppDelegate.swift */,
-				F61A36692236BFBD003F9FE6 /* ViewController.swift */,
+				F66397F32252D44A00C74D3E /* Assets.xcassets */,
 				F61A366B2236BFBD003F9FE6 /* Main.storyboard */,
-				F61A366E2236BFC8003F9FE6 /* Assets.xcassets */,
 				F61A36702236BFC8003F9FE6 /* LaunchScreen.storyboard */,
 				F61A36732236BFC8003F9FE6 /* Info.plist */,
 			);
-			path = YoutubeDemo;
+			path = MovieTime;
+			sourceTree = "<group>";
+		};
+		F6CD0A312259BA13000A99B1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F66397F12252C8B700C74D3E /* WeclomeController.swift */,
+				F61A36692236BFBD003F9FE6 /* HomeController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F6E5E0F022555F0C0030A918 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F6E5E0F122555F770030A918 /* VideoCell.swift */,
+				F6CDA4792257EFE100121F0A /* WelcomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F6E5E0F32255721A0030A918 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F6E5E0F4225572550030A918 /* Extensions.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F61A36632236BFBD003F9FE6 /* YoutubeDemo */ = {
+		F61A36632236BFBD003F9FE6 /* MovieTime */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F61A36762236BFC8003F9FE6 /* Build configuration list for PBXNativeTarget "YoutubeDemo" */;
+			buildConfigurationList = F61A36762236BFC8003F9FE6 /* Build configuration list for PBXNativeTarget "MovieTime" */;
 			buildPhases = (
 				F61A36602236BFBD003F9FE6 /* Sources */,
 				F61A36612236BFBD003F9FE6 /* Frameworks */,
@@ -79,9 +118,9 @@
 			);
 			dependencies = (
 			);
-			name = YoutubeDemo;
+			name = MovieTime;
 			productName = YoutubeDemo;
-			productReference = F61A36642236BFBD003F9FE6 /* YoutubeDemo.app */;
+			productReference = F61A36642236BFBD003F9FE6 /* MovieTime.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +138,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F61A365F2236BFBC003F9FE6 /* Build configuration list for PBXProject "YoutubeDemo" */;
+			buildConfigurationList = F61A365F2236BFBC003F9FE6 /* Build configuration list for PBXProject "MovieTime" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +151,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F61A36632236BFBD003F9FE6 /* YoutubeDemo */,
+				F61A36632236BFBD003F9FE6 /* MovieTime */,
 			);
 		};
 /* End PBXProject section */
@@ -123,7 +162,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F61A36722236BFC8003F9FE6 /* LaunchScreen.storyboard in Resources */,
-				F61A366F2236BFC8003F9FE6 /* Assets.xcassets in Resources */,
+				F6FD6855225DFA4E00F75727 /* Default-568h@2x.png in Resources */,
+				F66397F42252D44A00C74D3E /* Assets.xcassets in Resources */,
 				F61A366D2236BFBD003F9FE6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +175,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F61A366A2236BFBD003F9FE6 /* ViewController.swift in Sources */,
+				F6E5E0F5225572550030A918 /* Extensions.swift in Sources */,
+				F6CDA47A2257EFE100121F0A /* WelcomeView.swift in Sources */,
+				F61A366A2236BFBD003F9FE6 /* HomeController.swift in Sources */,
+				F6E5E0F222555F770030A918 /* VideoCell.swift in Sources */,
 				F61A36682236BFBD003F9FE6 /* AppDelegate.swift in Sources */,
+				F66397F22252C8B700C74D3E /* WeclomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +328,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B7HVRPB4TW;
-				INFOPLIST_FILE = YoutubeDemo/Info.plist;
+				INFOPLIST_FILE = MovieTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mustafa.YoutubeDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mustafa.MovieTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,12 +346,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B7HVRPB4TW;
-				INFOPLIST_FILE = YoutubeDemo/Info.plist;
+				INFOPLIST_FILE = MovieTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mustafa.YoutubeDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mustafa.MovieTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,7 +361,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F61A365F2236BFBC003F9FE6 /* Build configuration list for PBXProject "YoutubeDemo" */ = {
+		F61A365F2236BFBC003F9FE6 /* Build configuration list for PBXProject "MovieTime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F61A36742236BFC8003F9FE6 /* Debug */,
@@ -326,7 +370,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F61A36762236BFC8003F9FE6 /* Build configuration list for PBXNativeTarget "YoutubeDemo" */ = {
+		F61A36762236BFC8003F9FE6 /* Build configuration list for PBXNativeTarget "MovieTime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F61A36772236BFC8003F9FE6 /* Debug */,

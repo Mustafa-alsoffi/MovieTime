@@ -12,11 +12,21 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+//    let welcomeC = WeclomeVC()
+//    let welcomeV = WelcomeView()
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        return true
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
+        
+//        let layout = UICollectionViewFlowLayout()
+//        window?.rootViewController = UINavigationController(rootViewController: HomeController(collectionViewLayout: layout))
+        
+        window?.rootViewController = UINavigationController(rootViewController: WeclomeController())
+
+       return true
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
